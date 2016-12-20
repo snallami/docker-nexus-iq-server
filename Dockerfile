@@ -5,10 +5,6 @@ ENV JAVA_VERSION_MAJOR 8
 ENV JAVA_VERSION_MINOR 112
 ENV JAVA_VERSION_BUILD 15
 
-RUN yum install -y \
-  curl tar \
-  && yum clean all
-
 # install Oracle JRE
 RUN mkdir -p /opt \
   && curl --fail --silent --location --retry 3 \
