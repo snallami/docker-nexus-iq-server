@@ -1,4 +1,4 @@
-FROM centos:7.2.1511
+FROM centos:latest
 
 ENV JAVA_HOME /opt/java
 ENV JAVA_VERSION_MAJOR 8
