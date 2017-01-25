@@ -1,5 +1,5 @@
 # docker-nexus-iq-server
-Nexus IQ Server v1.24.0-02  
+Nexus IQ Server v1.25.0-02  
 Oracle JDK 8u112b15
 
 Updated version of the original author's image (jswank/iq-server)
