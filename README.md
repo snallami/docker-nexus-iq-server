@@ -1,6 +1,6 @@
 # docker-nexus-iq-server
 Nexus IQ Server v1.25.0-02  
-Open JDK 8u121b13
+OpenJDK 8u121b13
 
 Based on alpine (150mb)
 
