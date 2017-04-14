@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
 ENV SONATYPE_WORK /sonatype-work
-ENV IQ_VERSION 1.26.0-01
+ENV IQ_VERSION 1.27.0-01
 
 RUN apk add --no-cache curl && \
     mkdir -p /opt/sonatype/iq-server && \
