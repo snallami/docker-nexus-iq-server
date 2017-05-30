@@ -1,5 +1,5 @@
 # docker-nexus-iq-server
-Nexus IQ Server v1.29.0-01
+Nexus IQ Server v1.30.0-01
 JDK 8u121b13
 
 Centos/Alpine versions available:
