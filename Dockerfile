@@ -6,6 +6,9 @@ ENV JAVA_VERSION_MINOR 131
 ENV JAVA_VERSION_BUILD 11
 ENV SIG d54c1d3a095b4ff2b6607d096fa80163
 
+#update packages for security vulnerabilities
+RUN yum -y update && yum clean all
+
 # install Oracle JRE
 RUN mkdir -p /opt \
   && curl --fail --silent --location --retry 3 \
