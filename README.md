@@ -1,4 +1,7 @@
 # docker-nexus-iq-server
+
+[![Docker Repository on Quay](https://quay.io/repository/circa10a/docker-nexus-iq-server/status "Docker Repository on Quay")](https://quay.io/repository/circa10a/docker-nexus-iq-server)
+
 Nexus IQ Server v1.30.0-01
 
 OpenJDK 8u121b13
