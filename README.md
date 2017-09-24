@@ -23,7 +23,7 @@ Centos/Alpine versions available:
 * All logs are directed to stdout:
 
 ```
-$ docker logs -f iq-server
+$ docker logs -f nexus-iq
 ```
 
 * Installation of IQ Server is to `/opt/sonatype/iq-server`.  
@@ -35,7 +35,7 @@ $ docker logs -f iq-server
 * An environment variable, `JVM_OPTIONS`, used to control the JVM arguments
 
   ```
-  $ docker run -d -p 8070:8070 --name iq-server -e JVM_OPTIONS="-server -Xmx2g" circ10a/nexus-iq-server
+  $ docker run -d -p 8070:8070 --name nexus-iq -e JVM_OPTIONS="-server -Xmx2g" circ10a/nexus-iq-server
   ```
 
 
