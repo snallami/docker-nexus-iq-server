@@ -7,7 +7,7 @@
 
 Nexus IQ Server v1.37.0-02
 
-OpenJDK 8u121b13
+OpenJDK 8u131
 
 Based on alpine (150mb)
 
