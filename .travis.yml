@@ -1,0 +1,11 @@
+services:
+- docker
+
+script:
+  - set -e
+  - docker build -t circa10a/nexus-iq-server .
+  - docker run -d --rm --name nexus-iq circa10a/nexus-iq-server
+  - sleep 10
+  - docker ps | grep 'nexus-iq'
+  - docker login -u="$docker_username" -p="$docker_password"
+  - docker push circa10a/nexus-iq-server
