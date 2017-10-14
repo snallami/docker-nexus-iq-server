@@ -1,5 +1,6 @@
 # docker-nexus-iq-server
 
+[![Build Status](https://travis-ci.org/circa10a/docker-nexus-iq-server.svg?branch=master)](https://travis-ci.org/circa10a/docker-nexus-iq-server)
 [![Docker Repository on Quay](https://quay.io/repository/circa10a/docker-nexus-iq-server/status "Docker Repository on Quay")](https://quay.io/repository/circa10a/docker-nexus-iq-server)
 [![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)]()
 [![](https://images.microbadger.com/badges/image/circa10a/nexus-iq-server.svg)](https://microbadger.com/images/circa10a/nexus-iq-server "Get your own image badge on microbadger.com")
