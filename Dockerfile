@@ -2,9 +2,9 @@ FROM centos:latest
 
 ENV JAVA_HOME /opt/java
 ENV JAVA_VERSION_MAJOR 8
-ENV JAVA_VERSION_MINOR 131
-ENV JAVA_VERSION_BUILD 11
-ENV SIG d54c1d3a095b4ff2b6607d096fa80163
+ENV JAVA_VERSION_MINOR 151
+ENV JAVA_VERSION_BUILD 12
+ENV SIG e758a0de34e24606bca991d704f6dcbf
 
 #update packages for security vulnerabilities
 RUN yum -y update && yum clean all
