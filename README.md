@@ -88,5 +88,3 @@ There are two primary ways to update the configuration for iq-server.
   $ docker build -t my-iq-server .
 ```
 * Use this docker image as you normally would: `docker run -d my-iq-server`
-
-
