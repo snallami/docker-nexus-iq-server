@@ -1,5 +1,7 @@
 FROM centos:latest
 
+ENV IQ_VERSION 1.41.0-01
+
 ENV JAVA_HOME /opt/java
 ENV JAVA_VERSION_MAJOR 8
 ENV JAVA_VERSION_MINOR 151
@@ -20,7 +22,6 @@ RUN mkdir -p /opt \
 
 
 ENV SONATYPE_WORK /sonatype-work
-ENV IQ_VERSION 1.40.0-02
 
 RUN mkdir -p /opt/sonatype/iq-server \
   && curl --fail --silent --location --retry 3 \
