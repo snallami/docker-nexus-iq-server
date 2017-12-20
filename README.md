@@ -5,7 +5,7 @@
 [![](https://images.microbadger.com/badges/image/circa10a/nexus-iq-server:alpine.svg)](https://microbadger.com/images/circa10a/nexus-iq-server:alpine "Get your own image badge on microbadger.com")
 [![](https://images.microbadger.com/badges/version/circa10a/nexus-iq-server:alpine.svg)](https://microbadger.com/images/circa10a/nexus-iq-server:alpine "Get your own version badge on microbadger.com")
 
-Nexus IQ Server v1.41.0-01
+Nexus IQ Server v1.42.0-01
 
 OpenJDK 8u131
 
