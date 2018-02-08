@@ -8,7 +8,7 @@
 
 Nexus IQ Server v1.43.0-01
 
-Oracle JDK 8u151b12
+Oracle JDK 8u161b12
 
 Centos/Alpine versions available:
 
