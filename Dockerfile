@@ -4,9 +4,9 @@ ENV IQ_VERSION 1.43.0-01
 
 ENV JAVA_HOME /opt/java
 ENV JAVA_VERSION_MAJOR 8
-ENV JAVA_VERSION_MINOR 151
+ENV JAVA_VERSION_MINOR 161
 ENV JAVA_VERSION_BUILD 12
-ENV SIG e758a0de34e24606bca991d704f6dcbf
+ENV SIG 2f38c3b165be4555a1fa6e98c45e0808
 
 #update packages for security vulnerabilities
 RUN yum -y update && yum clean all
